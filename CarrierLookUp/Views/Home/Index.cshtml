@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Carrier Look Up";
+}
+<!--Remember to fix the alignment-->
+<div class="mt-4"> 
+    <div class="text-center">
+        <img src="images/CarrierLookup.png" class="rounded" style="height:300px; max-width:100%;" />
+
+        <!--The searchbar-->
+            <div class="input-group rounded shadow cmSearch">
+                <input type="search" class="form-control rounded fs-4" id="search-id" placeholder="Cellphone number..." aria-label="Search" aria-describedby="search-addon" />
+                <span class="input-group-text border-0" id="search-addon">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+
+        <!--full details with underlined-->
+        <div class="row">
+            <span class="my-3 text-decoration-underline display-3">Results</span>
+            <p class="">ISP for: ....(cellphone num)</p>
+            <p class="">Possible ISP: ...</p>
+        </div>
+    </div>
+ 
+</div>
+

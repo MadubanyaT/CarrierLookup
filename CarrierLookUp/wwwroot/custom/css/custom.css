@@ -1,0 +1,15 @@
+﻿body {
+    background-color: #EEEDEB;
+    overflow-x:hidden;
+    padding-left: 13px;
+}
+
+.cmSearch{
+    max-width:690px;
+    margin:auto;
+}
+
+#search-id:focus {
+    box-shadow: none !important;
+    
+}
