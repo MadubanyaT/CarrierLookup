@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CarrierLookUp.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Text.RegularExpressions;
 
 namespace CarrierLookUp.Controllers
 {
@@ -11,9 +13,17 @@ namespace CarrierLookUp.Controllers
         }
 
         [HttpPost]
-        public IActionResult Index(string s)
+        public IActionResult Index(UserInput Number)
         {
-            return View();
+            //The number must be sanitized before it gets to the checker
+
+            if (ModelState.IsValid && Regex.IsMatch(Number.CNumber, @"^0[1-9]\d{8}$"))
+            {
+                NumberChecker numberChecker = new NumberChecker(Number);
+                Number.Carrier = numberChecker.Carrier;
+                return View(Number);
+            }
+            return View(null);
         }
 
         public IActionResult About()

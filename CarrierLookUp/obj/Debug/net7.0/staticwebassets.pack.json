@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\custom\\css\\custom.css"
     },
     {
+      "Id": "C:\\Users\\DeviceParticle\\Saved Games\\C# application\\CarrierLookup\\CarrierLookUp\\CarrierLookUp\\wwwroot\\custom\\js\\custom.js",
+      "PackagePath": "staticwebassets\\custom\\js\\custom.js"
+    },
+    {
       "Id": "C:\\Users\\DeviceParticle\\Saved Games\\C# application\\CarrierLookup\\CarrierLookUp\\CarrierLookUp\\wwwroot\\icons\\favicon.ico",
       "PackagePath": "staticwebassets\\icons\\favicon.ico"
     },

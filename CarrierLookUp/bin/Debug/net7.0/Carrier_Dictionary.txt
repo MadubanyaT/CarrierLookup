@@ -1,0 +1,94 @@
+01	Gauteng, Mpumalanga, Limpopo, North West
+02	Western Cape, Parts of Northern Cape.
+03	KwaZulu-Natal
+04	Eastern Cape, eastern parts of the Western Cape
+05	The Free State, and parts of the Northern Cape
+0603	MTN
+0604	MTN
+0605	MTN
+0606	Vodacom
+0607	Vodacom
+0608	Vodacom
+0609	Vodacom
+0610	Cell C
+0611	Cell C
+0612	Cell C
+0613	Cell C
+0614	Telkom Mobile
+0615	Cell C
+0616	Cell C
+0617	Cell C
+0618	Cell C
+0619	Cell C
+062	Cell C	
+0630	MTN
+0631	MTN
+0632	MTN
+0633	MTN
+0634	MTN
+0635	MTN
+0636	Vodacom
+0637	Vodacom
+0638	MTN
+0639	MTN
+0640	MTN
+0641	Cell C
+0642	Cell C
+0643	Cell C
+0644	Cell C
+0645	Cell C
+0646	Vodacom
+0647	Vodacom
+0648	Vodacom
+0649	Vodacom
+0654	Lycamobile SA
+0655	MTN
+0656	MTN
+0657	MTN
+0658	Telkom Mobile
+0659	Telkom Mobile
+0660	Vodacom
+0661	Vodacom
+0662	Vodacom
+0663	Vodacom
+0664	Vodacom
+0665	Vodacom
+0670	Telkom Mobile
+0671	Telkom Mobile
+0672	Telkom Mobile
+0710	MTN
+0711	Vodacom
+0712	Vodacom
+0713	Vodacom
+0714	Vodacom
+0715	Vodacom
+0716	Vodacom
+0717	MTN
+0718	MTN
+0719	MTN
+072	Vodacom
+073	MTN
+074	Cell C
+0741	Virgin Mobile
+076	Vodacom
+078	MTN
+079	Vodacom
+080	Toll-free, Called Party pays
+0810	MTN
+0811	Telkom Mobile
+0812	Telkom Mobile
+0813	Telkom Mobile
+0814	Telkom Mobile
+0815	Telkom Mobile
+0816	Rain
+0817	Telkom
+0818	Vodacom
+082	Vodacom
+083	MTN
+084	Cell C
+085	USAL licence holders
+086	Sharecall, MaxiCall, and prenium-rate services
+0860	Sharecall-Landline callers pay local call
+0861	MaxiCall
+08622	Competition Lines
+

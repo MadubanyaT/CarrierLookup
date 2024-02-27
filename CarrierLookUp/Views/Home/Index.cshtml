@@ -1,26 +1,33 @@
-﻿@{
+﻿@model UserInput
+@{
     ViewBag.Title = "Carrier Look Up";
 }
 <!--Remember to fix the alignment-->
-<div class="mt-4"> 
+<div class="mt-2"> 
     <div class="text-center">
         <img src="images/CarrierLookup.png" class="rounded" style="height:300px; max-width:100%;" />
 
         <!--The searchbar-->
+        <form asp-action="Index" method="post">
             <div class="input-group rounded shadow cmSearch">
-                <input type="search" class="form-control rounded fs-4" id="search-id" placeholder="Cellphone number..." aria-label="Search" aria-describedby="search-addon" />
-                <span class="input-group-text border-0" id="search-addon">
+                <input asp-for="CNumber" type="tel" class="form-control rounded fs-4" pattern="[0]{1}[1-9]{1}[0-9]{8}" title="Must be S.A 10 digits that starts with 0"
+                    id="search-id" placeholder="Cellphone number..." aria-describedby="search-addon" required />
+                <button type="submit" class="input-group-text border-0" id="search-addon">
                     <i class="fas fa-search"></i>
-                </span>
+                </button>
             </div>
-
+        </form>
+           
         <!--full details with underlined-->
-        <div class="row">
-            <span class="my-3 text-decoration-underline display-3">Results</span>
-            <p class="">ISP for: ....(cellphone num)</p>
-            <p class="">Possible ISP: ...</p>
-        </div>
+        @if (Model != null)
+        {
+            <div class="row">
+                <span class="my-2 text-decoration-underline display-1">Results</span>
+                <p class="fs-3">The searched number:<br /> <span class=" fs-2 fw-bolder text-decoration-underline">@Model.CNumber</span></p>
+                <p class="fs-3">Possible ISP:<br /><span class="fs-2 fw-bolder text-decoration-underline">@Model.Carrier</span></p>
+            </div>
+  
+        }
     </div>
- 
 </div>
 

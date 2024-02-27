@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mzgLPUimaEGDDJ6iUJHiS/QnbbttucPSFuwFlLHSmd4=",
+  "Hash": "kqk0QcRbALoMS0BPHoPFX6kYYp2LrOykCBO58h6g9pc=",
   "Source": "CarrierLookUp",
   "BasePath": "_content/CarrierLookUp",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\custom\\css\\custom.css"
+    },
+    {
+      "Identity": "C:\\Users\\DeviceParticle\\Saved Games\\C# application\\CarrierLookup\\CarrierLookUp\\CarrierLookUp\\wwwroot\\custom\\js\\custom.js",
+      "SourceId": "CarrierLookUp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DeviceParticle\\Saved Games\\C# application\\CarrierLookup\\CarrierLookUp\\CarrierLookUp\\wwwroot\\",
+      "BasePath": "_content/CarrierLookUp",
+      "RelativePath": "custom/js/custom.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\custom\\js\\custom.js"
     },
     {
       "Identity": "C:\\Users\\DeviceParticle\\Saved Games\\C# application\\CarrierLookup\\CarrierLookUp\\CarrierLookUp\\wwwroot\\icons\\favicon.ico",
